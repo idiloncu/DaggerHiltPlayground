@@ -1,4 +1,6 @@
 package com.example.daggerhiltplayground
 
-class Band {
+import javax.inject.Inject
+
+class Band @Inject constructor() {
 }
